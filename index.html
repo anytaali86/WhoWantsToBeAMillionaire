@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<title>Who wants to be a Millionaire</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	
+	<audio id="background" src='sound/background.mp3'></audio>
+	<audio id="rightsound" src='sound/right.mp3'></audio>
+	<audio id="wrongsound" src='sound/wrong.mp3'></audio>
+	
+	<div class="logo">
+		<img src="img/logo.png" width="400px"/>
+	</div>
+
+	<div class="timer trans">
+		30
+	</div>
+
+	<div class="progress-bar trans">
+		<div class="trans"></div>
+	</div>
+
+	<div id="options" class="lifeline">
+		<div id="fifty" class="options-button"></div>
+		<div id="audience" class="options-button"></div>
+		<div id="walk-away" class="options-button"></div>
+		<div class="trans audience">
+			<ul>
+				<li>A</li>
+				<li>B</li>
+				<li>C</li>
+				<li>D</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="levels trans">
+		<ul>
+			<li class="highlight">1,000,000</li>
+			<li>500,000</li>
+			<li>250,000</li>
+			<li>125,000</li>
+			<li>64,000</li>
+			<li class="highlight">32,000</li>
+			<li>16,000</li>
+			<li>8,000</li>
+			<li>4,000</li>
+			<li>2,000</li>
+			<li class="highlight">1,000</li>
+			<li>500</li>
+			<li>300</li>
+			<li>200</li>
+			<li>100</li>
+		</ul>
+		<span></span>
+	</div>
+
+	<div class="question trans">
+		<p>	</p>		
+	</div>
+
+	<div class="answers">
+		<div class="options option-a">
+			A. <span></span>
+		</div>
+		<div class="options option-b">
+			B. <span></span>
+		</div>
+		<div class="options option-c">
+			C. <span></span>
+		</div>
+		<div class="options option-d">
+			D. <span></span>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
